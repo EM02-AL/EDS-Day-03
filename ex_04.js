@@ -1,11 +1,15 @@
 // Your code here...
 var a = 2 
 var b = 4 
-var action = "sub"
+var action = "add"
 
 function calculator () {
-if (action ==='sub') return substraction()
-else (action ==='add') ; return addition()
+
+if (action ==='sub') {return substraction()
+}
+if (action ==='add') {return addition()
+}
+
 }
 
 function addition () {
